@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Efficient Era</title>
+    
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="shortcut icon" href="imgs/Screenshot 2024-02-02 184452.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <header id="navbar">
+        <div class="container">
+            <nav class="desktop">
+                <div class="logo">
+                    <img src="imgs/Screenshot 2024-02-02 184452.png" alt="">
+                </div>
+                <div class="links">
+                    <ul class="nav-links">
+                        <li> <a href="" class="links-s">HOME</a></li>
+                        <li> <a href="#About_Us" class="links-s">ABOUT US </a></li>
+                        <li class="drop"> <a href="" class="links-s">OUR SERVICES</a>
+                             <ul class="dropMEnu">
+                              
+                                <li>
+                                    <a href="">Cold calling</a>
+                                </li>
+                                <li>
+                                    <a href="">Real State Sactors</a>
+                                </li>
+                                <li>
+                                    <a href="">Virtual Assitsance</a>
+                                </li>
+                                <li>
+                                    <a href="">Dept Collection</a>
+                                </li>
+                                <li>
+                                    <a href="">Customer Support</a>
+                                </li>
+                             
+                             </ul></li>
+                        <!-- <li> <a href="" class="links-s">CAREERS</a></li> -->
+                        <li> <a href="blog.html" class="links-s">BLOG</a></li>
+                        <li> <a href="#CONTACT" class="links-s">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <div class="tools d-flex align-items-center">
+                    <label class="ui-switch">
+                        <input type="checkbox" id="darkModeToggle">
+                        <div class="slider">
+                          <div class="circle"></div>
+                        </div>
+                      </label>
+                      <div class="hamburger" >
+                        <div class="hamburger__container" id="check">
+                          <div class="hamburger__inner"></div>
+                          <div class="hamburger__hidden"></div>
+                        </div>
+                      </div>
+                </div>
+            </nav>
+            <nav class="mobile">
+               
+                <div class="links">
+                    <ul class="nav-links">
+                        <li> <a href="" class="links-s">HOME</a></li>
+                        <li> <a href="#About_Us" class="links-s">ABOUT US </a></li>
+                        <li class="drop"> <a role="link" aria-disabled="true" class="links-s" >OUR SERVICES ▶</a>
+                             <ul class="dropMEnu">
+                              
+                                <li>
+                                    <a href="">Cold calling</a>
+                                </li>
+                                <li>
+                                    <a href="">Real State Sactors</a>
+                                </li>
+                                <li>
+                                    <a href="">Virtual Assitsance</a>
+                                </li>
+                                <li>
+                                    <a href="">Dept Collection</a>
+                                </li>
+                                <li>
+                                    <a href="">Customer Support</a>
+                                </li>
+                             
+                             </ul></li>
+                        <!-- <li> <a href="" class="links-s">CAREERS</a></li> -->
+                        <li> <a href="blog.html" class="links-s">BLOG</a></li>
+                        <li> <a href="" class="links-s">CONTACT US</a></li>
+                    </ul>
+                </div>
+   
+            </nav>
+
+        </div>
+    </header>
+    <section class="hero ">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3500">
+                    <div class="text">
+                        <h1 data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">Understanding Real Estate Agents</h1>
+                        <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">Real estate agents serve as intermediaries between <br> buyers and sellers in real estate transactions. They possess comprehensive knowledge of the local market, property values, and legal procedures.</p>
+                        <a href="# " data-aos="fade-up" data-aos-duration="2500" data-aos-delay="600"><span>See More</span></a>
+                    </div>
+                    <img src="imgs/broker-giving-keys.jpg" class="d-block w-100 " alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <div class="text">
+                        <h1>Customer Service</h1>
+                        <p>Customer service plays a crucial role in <br> businesses by providing assistance and support to customers before, during, and after their interactions with a product or service.</p>
+                        <a href="#"><span>See More</span></a>
+                    </div>
+                    <img src="imgs/portrait-woman-customer-service-worker.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <div class="text">
+                        <h1>Virtual Assistants: Simplifying Tasks</h1>
+                        <p>Virtual assistants (VAs) are digital tools or software programs designed to help users accomplish various tasks efficiently. They can perform a wide range of functions <br>, from managing schedules and reminders to  providing information and performing automated tasks.</p>
+                        <a href="#"><span>See More</span></a>
+                    </div>
+                    <img src="imgs/customer-service-cute-brunette-guy-office-suit-with-computer-headset-saying-bye.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"></li>
+            </ol>
+        </div>
+        
+    </section>
+    <section id="About_Us"  class="Our"  >
+        <h1  class="pt-2 text-center" >Our Task</h1>
+        <div  class="container pt-5">
+            <div class="row align-items-center">
+                <div class="img col-lg-6 col-md-6 col-sm-12" data-aos="fade-right"
+                data-aos-duration="1500" data-aos-delay="50" data-aos-once="true"
+               >
+                    <img src="imgs/mail-dynamic-premium.png" alt="">
+                </div>
+                <div class="text col-lg-6 col-md-12 col-sm-12">
+                    <ul>
+                        <li       data-aos="fade-right"   data-aos-duration="1500" data-aos-delay="50" data-aos-once="true">Our mission is dedicated to delivering outstanding contact center services to businesses, enabling them to optimize their operations, enhance productivity, and realize their business objectives.</li>
+                        <li  data-aos="fade-right"   data-aos-duration="2500" data-aos-delay="200" data-aos-once="true">We are committed to offering cost-effective and efficient solutions customized to meet the unique requirements of each client.</li>
+                        <li  data-aos="fade-right"   data-aos-duration="2000" data-aos-delay="400" data-aos-once="true">As a leading provider of outsourcing services, our goal is to forge enduring partnerships with our clients, consistently surpassing their expectations by delivering top-notch services.</li>
+                        <li  data-aos="fade-right"   data-aos-duration="3000" data-aos-delay="600" data-aos-once="true">We aspire to serve as catalysts for our clients' growth and success, actively supporting them in achieving their business aspirations and unlocking their full potential.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="services mt-5">
+        <h1 class="pt-2 text-center">Services</h1>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="ag-format-container">
+                    <div class="ag-courses_box">
+                      <div class="ag-courses_item text-center "  data-aos="fade-up"   data-aos-duration="2500" data-aos-delay="50" data-aos-once="true">
+                        <a href="#" class="ag-courses-item_link">
+                          <div class="ag-courses-item_bg"></div>
+                  
+                          <div class="ag-courses-item_title">
+                            Cold calling
+                          </div>
+                  
+                          <div class="ag-courses-item_date-box text-center">
+                            <i class="fa-solid fa-snowflake fs-4 "></i>
+                           
+                          </div>
+                        </a>
+                      </div>
+                  
+                      <div class="ag-courses_item text-center"  data-aos="fade-up"   data-aos-duration="2500" data-aos-delay="250" data-aos-once="true">
+                        <a href="#" class="ag-courses-item_link">
+                          <div class="ag-courses-item_bg"></div>
+                  
+                          <div class="ag-courses-item_title">
+                            customer support
+                          </div>
+                  <div class="ag-courses-item_date-box text-center">
+                    <i class="fa-solid fa-phone fs-3"></i>
+                  </div>
+                          
+                        </a>
+                      </div>
+                  
+                      <div class="ag-courses_item text-center"  data-aos="fade-up"   data-aos-duration="2500" data-aos-delay="350" data-aos-once="true">
+                        <a href="#" class="ag-courses-item_link">
+                          <div class="ag-courses-item_bg"></div>
+                  
+                          <div class="ag-courses-item_title">
+                            Virtual Assitsance
+                          </div>
+                  
+                          <div class="ag-courses-item_date-box text-center">
+                            <i class="fa-solid fa-headphones fs-3"></i>
+                           
+                          </div>
+                        </a>
+                      </div>
+                  
+                      <div class="ag-courses_item text-center"  data-aos="fade-up"   data-aos-duration="2500" data-aos-delay="450" data-aos-once="true">
+                        <a href="#" class="ag-courses-item_link">
+                          <div class="ag-courses-item_bg"></div>
+                  
+                          <div class="ag-courses-item_title">
+                            Real Estate
+                          </div>
+                  
+                          <div class="ag-courses-item_date-box text-center">
+                            <i class="fa-solid fa-building fs-3"></i>
+                         
+                          </div>
+                        </a>
+                      </div>
+                  
+
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section class="swiper-m mt-5 py-5">
+        <div class="he">
+            <p>Customer Reviews</p>
+            <h3>Our Testimonials</h3>
+            
+        </div>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+        <div class="container">
+        <div class="swiper mySwiper mt-5">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="cardS">
+                    <div class="text">
+                        <h3>On the other hand denoun with righteous and disliks men who are beguiled demorae momentc blinded by desire that can
+                        </h3>
+                    </div>
+                    <div class="card-object d-flex gap-4 align-items-center">
+                    <div class="cardS-img">
+                        <img src="imgs/Profile.jpg" alt="">
+
+                    </div>
+                    <div class="card-text">
+                        <p>kamal hosny</p>
+                        <p>Web devloper</p>
+                    </div>
+                </div>
+
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cardS">
+                    <div class="text">
+                        <h3>On the other hand denoun with righteous and disliks men who are beguiled demorae momentc blinded by desire that can
+                        </h3>
+                    </div>
+                    <div class="card-object d-flex gap-4 align-items-center">
+                    <div class="cardS-img">
+                        <img src="imgs/Profile.jpg" alt="">
+
+                    </div>
+                    <div class="card-text">
+                        <p>abdulrhman ashraf</p>
+                        <p>Word press</p>
+                    </div>
+                </div>
+
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cardS">
+                    <div class="text">
+                        <h3>On the other hand denoun with righteous and disliks men who are beguiled demorae momentc blinded by desire that can
+                        </h3>
+                    </div>
+                    <div class="card-object d-flex gap-4 align-items-center">
+                    <div class="cardS-img">
+                        <img src="imgs/Profile.jpg" alt="">
+
+                    </div>
+                    <div class="card-text">
+                        <p>Mahmoud EL-Shazly</p>
+                        <p>Web devloper</p>
+                    </div>
+                </div>
+
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cardS">
+                    <div class="text">
+                        <h3>On the other hand denoun with righteous and disliks men who are beguiled demorae momentc blinded by desire that can
+                        </h3>
+                    </div>
+                    <div class="card-object d-flex gap-4 align-items-center">
+                    <div class="cardS-img">
+                        <img src="imgs/Profile.jpg" alt="">
+
+                    </div>
+                    <div class="card-text">
+                        <p>John Eid</p>
+                        <p>Marketing</p>
+                    </div>
+                </div>
+
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cardS">
+                    <div class="text">
+                        <h3>On the other hand denoun with righteous and disliks men who are beguiled demorae momentc blinded by desire that can
+                        </h3>
+                    </div>
+                    <div class="card-object d-flex gap-4 align-items-center">
+                    <div class="cardS-img">
+                        <img src="imgs/Profile.jpg" alt="">
+
+                    </div>
+                    <div class="card-text">
+                        <p>Muhammad El-sawy</p>
+                        <p>Customer</p>
+                    </div>
+                </div>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="custom-pagination mt-5">
+                <!-- Create custom pagination bullets here -->
+                <span class="pagination-bullet"></span>
+                
+                
+          </div>
+        </div>
+        </div>
+    </section>
+    <section class="dseign pt-5">
+        <div class="container-fluid s">
+        <div class="img blur">
+            <img src="imgs/Screenshot 2024-02-02 184452.png" alt="">
+            
+        </div>
+        <div class="container cardss cardss ">
+            <div class="row">
+                <div class="ag-format-container">
+                    <div class="ag-courses_box">
+                      <div class="ag-courses_item text-center ">
+                        <a href="#" class="ag-courses-item_link">
+                          <div class="ag-courses-item_bg"></div>
+                  
+                          <div class="ag-courses-item_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500" data-aos-once="true" >
+                             Agents
+                            <p id="counter1"></p>
+                          </div>
+                  
+                          <div class="ag-courses-item_date-box text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700" data-aos-once="true">
+                            <i class="fa-solid fa-snowflake fs-4 "></i>
+                           
+                          </div>
+                        </a>
+                      </div>
+                  
+                      <div class="ag-courses_item text-center" >
+                        <a href="#" class="ag-courses-item_link">
+                          <div class="ag-courses-item_bg"></div>
+                  
+                          <div class="ag-courses-item_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000" data-aos-once="true" >
+                            Customers
+                            <p id="counter2"></p>
+                          </div>
+                  <div class="ag-courses-item_date-box text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1800" data-aos-once="true">
+                    <i class="fa-solid fa-user fs-3"></i>
+                  </div>
+                          
+                        </a>
+                      </div>
+                  
+                      <div class="ag-courses_item text-center" >
+                        <a href="#" class="ag-courses-item_link" >
+                          <div class="ag-courses-item_bg"></div>
+                  
+                          <div class="ag-courses-item_title " data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200" data-aos-once="true">
+                            Recuriters
+                            <p id="counter3"></p>
+                          </div>
+                  
+                          <div class="ag-courses-item_date-box text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="2000" data-aos-once="true">
+                            <i class="fa-solid fa-person fs-1"></i>
+                           
+                          </div>
+                        </a>
+                      </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+        <div class="item">
+        <img src="imgs/jason-dent-w3eFhqXjkZE-unsplash.jpg" alt="">
+    </div>
+   
+    </section>
+    <section id="CONTACT" class="contact">
+        <div class="container">
+            <div class="new_home_web">
+                <div class="responsive-container-block big-container">
+                  <img class="imgBG" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/aw65.png">
+                  <div class="responsive-container-block textContainer">
+                    <div class="topHead">
+                        <div class="text">
+                      <p class="text-blk heading">
+                        Get in
+                        <span class="orangeText">
+                          touch
+                        </span>
+                      </p>
+                      <div class="icons">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-skype"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                     </div>
+                    </div>
+               
+                      <div class="orangeLine" id="w-c-s-bgc_p-2-dm-id">
+                      </div>
+                    </div>
+                    <p class="text-blk subHeading">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna al iqua.
+                    </p>
+                  </div>
+                  <div class="responsive-container-block container">
+                    <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-7 wk-ipadp-10 line" id="i69b">
+                      <form class="form-box" action="https://formspree.io/f/mleqjpko" method="POST" onsubmit="return validateForm()">
+                        <div class="container-block form-wrapper">
+                            <div class="responsive-container-block">
+                                <div class="left4">
+                                    <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6" id="i10mt-2">
+                                        <input class="input name" type="text" id="firstName" name="FirstName" placeholder="Full Name" required>
+                                    </div>
+                                    <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                                        <input class="input lname" type="text" id="lastName" name="LastName" placeholder="Company (LLC) Name" required>
+                                    </div>
+                                    <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                                        <input class="input emailW" type="email" id="email" name="Email" placeholder="Email Address" required>
+                                    
+                                    </div>
+                                        <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                                        <label for="state" class="elementor-field-label">
+                                          State							</label>
+                                        <select  class="input state"  type="state"  id="State" name="state" class="elementor-field-textual elementor-size-sm" required="required" aria-required="true" aria-invalid="false">
+                                          <option value="Alabama">Alabama</option>
+                                          <option value="Alaska">Alaska</option>
+                                          <option value="Arizona">Arizona</option>
+                                          <option value="Arkansas">Arkansas</option>
+                                          <option value="California">California</option>
+                                          <option value="Colorado">Colorado</option>
+                                          <option value="Connecticut">Connecticut</option>
+                                          <option value="Delaware">Delaware</option>
+                                          <option value="Florida">Florida</option>
+                                          <option value="Georgia">Georgia</option>
+                                          <option value="Hawaii">Hawaii</option>
+                                          <option value="Idaho">Idaho</option>
+                                          <option value="Illinois">Illinois</option>
+                                          <option value="Indiana">Indiana</option>
+                                          <option value="Iowa">Iowa</option>
+                                          <option value="Kansas">Kansas</option>
+                                          <option value="Kentucky">Kentucky</option>
+                                          <option value="Louisiana">Louisiana</option>
+                                          <option value="Maine">Maine</option>
+                                          <option value="Maryland">Maryland</option>
+                                          <option value="Massachusetts">Massachusetts</option>
+                                          <option value="Michigan">Michigan</option>
+                                          <option value="Minnesota">Minnesota</option>
+                                          <option value="Mississippi">Mississippi</option>
+                                          <option value="Missouri">Missouri</option>
+                                          <option value="Montana">Montana</option>
+                                          <option value="Nebraska">Nebraska</option>
+                                          <option value="Nevada">Nevada</option>
+                                          <option value="New Hampshire">New Hampshire</option>
+                                          <option value="New Jersey">New Jersey</option>
+                                          <option value="New Mexico">New Mexico</option>
+                                          <option value="New York">New York</option>
+                                          <option value="North Carolina">North Carolina</option>
+                                          <option value="North Dakota">North Dakota</option>
+                                          <option value="Ohio">Ohio</option>
+                                          <option value="Oklahoma">Oklahoma</option>
+                                          <option value="Oregon">Oregon</option>
+                                          <option value="Pennsylvania">Pennsylvania</option>
+                                          <option value="Rhode Island">Rhode Island</option>
+                                          <option value="South Carolina">South Carolina</option>
+                                          <option value="South Dakota">South Dakota</option>
+                                          <option value="Tennessee">Tennessee</option>
+                                          <option value="Texas">Texas</option>
+                                          <option value="Utah">Utah</option>
+                                          <option value="Vermont">Vermont</option>
+                                          <option value="Virginia">Virginia</option>
+                                          <option value="Washington">Washington</option>
+                                          <option value="West Virginia">West Virginia</option>
+                                          <option value="Wisconsin">Wisconsin</option>
+                                          <option value="Wyoming">Wyoming</option>
+                                      </select>
+                                    </div>
+                                    <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 mt-5 lastPhone">
+                                        <input class="input phone" type="tel" id="phoneNumber" name="PhoneNumber" placeholder="Phone Number" required>
+                                    </div>
+                                    <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                                      <label for="service" class="elementor-field-label">
+                                        Service You Want							</label>
+                                      <select class="input service"  type="service"  id="Service" name="service" class="elementor-field-textual elementor-size-sm" required="required" aria-required="true">
+                                        <option value="Cold Calling ">Cold Calling </option>
+                                        <option value="Customer Support ">Customer Support </option>
+                                        <option value="Virtual Assistance ">Virtual Assistance </option>
+                                        <option value="Collections&nbsp;">Collections&nbsp;</option>
+                                        <option value="Real&nbsp;Estate">Real&nbsp;Estate</option>
+                                    </select>
+                                    </div>
+                                    
+                                </div>
+                                <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i-2">
+                                    <textarea class="textinput msg" name="message" id="message" placeholder="Message" required></textarea>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                            <button class="send" id="submitBtn" type="submit">Send To Email</button>
+                            <p>Or</p>
+                            <a class="send via"  onclick="sendWhatsApp()">Via whatsapp <i class="fa-brands fa-whatsapp"></i></a>
+                          </div>
+                        </div>
+                    </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <a href="index.html" data-aos="fade-down"   data-aos-duration="1500" data-aos-delay="50" data-aos-once="true"><img src="imgs/Screenshot 2024-02-02 184452.png" alt="" class="img-fluid logo-footer p-5"></a>
+                      <div class="footer-about">
+                      
+                      </div>
+
+          </div>
+          <div class="col-md-3">
+            <div class="useful-link">
+              <h2>Links</h2>
+              <img src="./assets/images/about/home_line.png" alt="" class="img-fluid">
+              <div class="use-links">
+                <li  data-aos="fade-up"   data-aos-duration="1500" data-aos-delay="50" data-aos-once="true"><a href="index.html"><i class="fa-solid fa-angles-right"></i> Home</a></li>
+                <li  data-aos="fade-up"   data-aos-duration="1500" data-aos-delay="250" data-aos-once="true"><a href="index.html#Our"><i class="fa-solid fa-angles-right"></i> About Us</a></li>
+
+                <li  data-aos="fade-up"   data-aos-duration="1500" data-aos-delay="450" data-aos-once="true"><a href="blog.html"><i class="fa-solid fa-angles-right"></i> Blog</a></li>
+                <li  data-aos="fade-up"   data-aos-duration="1500" data-aos-delay="550" data-aos-once="true"><a href="index.html#CONTACT"><i class="fa-solid fa-angles-right"></i> Contact Us</a></li>
+              </div>
+            </div>
+
+          </div>
+                    <div class="col-md-3">
+                        <div class="social-links">
+              <h2>Follow Us</h2>
+              <img src="./assets/images/about/home_line.png" alt="">
+              <div class="social-icons">
+                <li data-aos="fade-up"   data-aos-duration="1500" data-aos-delay="250" data-aos-once="true"><a href=""><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+                <li data-aos="fade-up"   data-aos-duration="1500" data-aos-delay="350" data-aos-once="true"><a href=""><i class="fa-brands fa-twitter"></i> Instagram</a></li>
+                <li data-aos="fade-up"   data-aos-duration="1500" data-aos-delay="450" data-aos-once="true"><a href=""><i class="fa-brands fa-skype"></i> Skype</a></li>
+                <li data-aos="fade-up"   data-aos-duration="1500" data-aos-delay="550" data-aos-once="true"><a href=""><i class="fa-brands fa-whatsapp"></i> whatsapp</a></li>
+              </div>
+            </div>
+                    
+
+                    </div>
+          <div class="col-md-3">
+            <div class="address">
+              <h2>Address</h2>
+              <img src="./assets/images/about/home_line.png" alt="" class="img-fluid">
+              <div class="address-links">
+                <li class="address1"><i class="fa-solid fa-location-dot"></i> Kolathur ramankulam-
+                  Malappuram Dt 
+                   Kerala 679338</li>
+                   <li><a href=""><i class="fa-solid fa-phone"></i> +91 90904500112</a></li>
+                   <li><a href=""><i class="fa-solid fa-envelope"></i> mail@1234567.com</a></li>
+              </div>
+            </div>
+          </div>
+                  
+        </div>
+      </div>
+
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="header-footer.js"></script>
+    <script src="https://unpkg.com/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+   
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            // When window width is >= 768px
+            768: {
+              slidesPerView: 1,
+              spaceBetween: 0,
+            },
+            // When window width is >= 992px
+            992: {
+              slidesPerView: 2,
+              spaceBetween: 150,
+            },
+            // When window width is >= 1200px
+            1200: {
+              slidesPerView: 2,
+              spaceBetween: 150,
+            }
+            // Add more breakpoints as needed
+          },
+          autoplay: {
+      delay: 2000, // 5 seconds delay between slides
+      disableOnInteraction: false, // Set to true if you want to stop autoplay when user interacts with swiper
+    },
+
+        });
+        
+        // The rest of your custom pagination code...
+        
+        
+        var customPagination = document.querySelector('.custom-pagination');
+        
+        // Function to create pagination bullets
+        function createPaginationBullets() {
+          for (var i = 0; i < 4; i++) { 
+            var bullet = document.createElement('span');
+            bullet.classList.add('pagination-bullet');
+            if (i === 0) bullet.classList.add('active'); // Set the first bullet as active
+            bullet.addEventListener('click', function() {
+              swiper.slideTo(i); // Slide to the corresponding index
+            });
+            customPagination.appendChild(bullet);
+          }
+        }
+        
+        createPaginationBullets();
+        
+        var bullets = document.querySelectorAll('.custom-pagination .pagination-bullet');
+        
+        swiper.on('slideChange', function() {
+          var activeIndex = swiper.realIndex % 6; // Get the active index within the range of 0-5
+          bullets.forEach(function(bullet, index) {
+            if (index === activeIndex) {
+              bullet.classList.add('active');
+            } else {
+              bullet.classList.remove('active');
+            }
+          });
+        });
+        
+          </script>
+           <script>
+            AOS.init();
+          </script>
+  </body>
+</html>
